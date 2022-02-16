@@ -60,7 +60,8 @@ namespace avaedit
             textView.MouseHoverStopped += TextEditorMouseHoverStopped;
             textView.VisualLinesChanged += VisualLinesChanged;
 
-            SearchPanel.Install(textEditor.TextArea);
+            SearchPanel.Install(textEditor.TextArea);日
+                //33
 
 
             string name = System.Reflection.Assembly.GetExecutingAssembly().GetName().Name + ".lua.xshd";
